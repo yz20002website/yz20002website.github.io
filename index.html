@@ -7,119 +7,73 @@
     <meta name="google-site-verification" content="KzjIFP3eGDfVI85KSxm3MLhI3MiX-jjBQlfo-SOl6Eg" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org/",
-        "@type": "Book",
-        "name": "Introduction to Information Retrieval",
-        "image": "https://nlp.stanford.edu/IR-book/iir.jpg",
-        "author": [
-            {
-                "@type": "Person",
-                "name": "Christopher D. Manning"
-            },
-            {
-                "@type": "Person",
-                "name": "Prabhakar Raghavan"
-            },
-            {
-                "@type": "Person",
-                "name": "Hinrich Schütze"
-            }
-        ],
-        "datePublished": "2008-07-07",
-        "publisher": {
-            "@type": "Organization",
-            "name": "Cambridge University Press"
-        },
-        "isbn": "9780521865715",
-        "genre": "Reference work",
-        "numberOfPages": "506",
-        "inLanguage": "en",
-        "url": "https://nlp.stanford.edu/IR-book/",
-        "review": {
-            "@type": "Review",
-            "reviewRating": {
-                "@type": "Rating",
-                "ratingValue": "5"
-            },
-            "name": "A very good book",
-            "author": {
-                "@type": "Person",
-                "name": "Jānis Ozoliņš"
-            },
-            "datePublished": "2023-04-23",
-            "reviewBody": "This is a very useful book about information retrieval and search algorithms. It helped me to understand how search engines work which is helpful for optimizing websites. This book has many math formulas. However, it isn't too hard to understand because authors have included many examples and explanations."
-        }
-    }
-    </script>
 </head>
 
 <body>
-<div>
-    <h3>Introduction to Information Retrieval</h3>
-    <img src="IR-cover.jpg" alt="Introduction to Information Retrieval">
+<div vocab="https://schema.org/" typeof="Book">
+    <h3 property="name">Introduction to Information Retrieval</h3>
+    <img property="image" src="IR-cover.jpg" alt="Introduction to Information Retrieval">
     <table>
         <tr>
             <td>Authors: </td>
-            <td>Christopher D. Manning</td>
+            <td property="author">Christopher D. Manning</td>
         </tr>
         <tr>
             <td></td>
-            <td>Prabhakar Raghavan</td>
+            <td property="author">Prabhakar Raghavan</td>
         </tr>
         <tr>
             <td></td>
-            <td>Hinrich Schütze</td>
+            <td property="author">Hinrich Schütze</td>
         </tr>
         <tr>
             <td>Published: </td>
-            <td>July 7, 2008</td>
+            <td property="datePublished" content="2008-07-07">July 7, 2008</td>
         </tr>
         <tr>
             <td>Publisher: </td>
-            <td>Cambridge University Press</td>
+            <td property="publisher" typeof="Organization"><span property="name">Cambridge University Press</span></td>
         </tr>
         <tr>
             <td>ISBN: </td>
-            <td>9780521865715</td>
+            <td property="isbn">9780521865715</td>
         </tr>
         <tr>
             <td>Genre: </td>
-            <td>Reference work</td>
+            <td property="genre">Reference work</td>
         </tr>
         <tr>
             <td>Pages: </td>
-            <td>506</td>
+            <td property="numberOfPages">506</td>
         </tr>
         <tr>
             <td>Language: </td>
-            <td>en</td>
+            <td property="inLanguage" content="en">English</td>
         </tr>
         <tr>
             <td>URL: </td>
-            <td>https://nlp.stanford.edu/IR-book/</td>
+            <td property="url">https://nlp.stanford.edu/IR-book/</td>
         </tr>
     </table>
 </div>
 <br>
-<div>
+<div property="review" typeof="Review">
     <b>Review:</b>
     <table>
         <tr>
-            <td>5 stars</td>
+            <td property="reviewRating" typeof="Rating"><span property="ratingValue">5</span> stars</td>
         </tr>
         <tr>
-            <td>A very good book</td>
+            <td property="name">A very good book</td>
         </tr>
         <tr>
-            <td>Jānis Ozoliņš</td>
+            <td property="author" typeof="Person"><span property="name">Jānis Ozoliņš</span></td>
         </tr>
         <tr>
-            <td>April 23, 2023</td>
+            <td property="datePublished" content="2023-04-23">April 23, 2023</td>
         </tr>
     </table>
-    <p>This is a very useful book about information retrieval and search algorithms. It helped me to understand how search engines work which is helpful for optimizing websites. This book has many math formulas. However, it isn't too hard to understand because authors have included many examples and explanations.</p>
+    <p property="reviewBody">This is a very useful book about information retrieval and search algorithms. It helped me to understand how search engines work which is helpful for optimizing websites. This book has many math formulas. However, it isn't too hard to understand because authors have included many examples and explanations.</p>
 </div>
 </body>
 
